@@ -7,7 +7,7 @@ const Dashboard = () =>{
 		  <div className='zo'>
 			  	<h4>Xerox & Salesforce:CAC(Last 30 Days)</h4>
 			  	<div className='heading'>
-				  	<h4>xerox+cal</h4>
+				  	<h4 style={{ color: 'blue' }}>xerox + cal</h4>
 				</div>
 				<div className='container'>
 				  	<div className='lbox'>
@@ -22,14 +22,16 @@ const Dashboard = () =>{
 		  </div>
 		  <div className='zo'>
 		  	<h4>Salesforce Sales(This Month)</h4>
-		  	<div className='container'>
-  				<meter Value='5' min='0' max='10'></meter>
+		  	<div className='container-2'>
+		  	    <h4>$58,592</h4>
+  				<meter Value='5.8' min='0' max='10'></meter>
 			</div>
 		  </div>
 		  <div className='zo'>
 		  	<h4>HubSpot Revenue This Month</h4>
-		  	<div className='container'>
-  				<meter Value='5' min='0' max='10'></meter>
+		  	<div className='container-2'>
+		  		<h4>$1,300,400</h4>
+  				<meter Value='8' min='0' max='10'></meter>
 			</div>
 		  </div>
 		</div>
