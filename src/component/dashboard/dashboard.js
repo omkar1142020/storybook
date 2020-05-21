@@ -4,7 +4,7 @@ import './dashboard.css';
 const Dashboard = () =>{
 	return(
 		<div>
-		  <div className='zone'>
+		  <div className='zo'>
 			  	<h4>Xerox & Salesforce:CAC(Last 30 Days)</h4>
 			  	<div className='heading'>
 				  	<h4>xerox+cal</h4>
@@ -20,13 +20,13 @@ const Dashboard = () =>{
 				  	</div>
 				</div>
 		  </div>
-		  <div className='zone'>
+		  <div className='zo'>
 		  	<h4>Salesforce Sales(This Month)</h4>
 		  	<div className='container'>
   				<meter Value='5' min='0' max='10'></meter>
 			</div>
 		  </div>
-		  <div className='zone'>
+		  <div className='zo'>
 		  	<h4>HubSpot Revenue This Month</h4>
 		  	<div className='container'>
   				<meter Value='5' min='0' max='10'></meter>

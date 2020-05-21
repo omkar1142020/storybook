@@ -1,4 +1,4 @@
-.zone {
+.zo {
     /*  padding:30px 50px;
     margin:40px 60px;*/
     cursor:pointer;
@@ -11,7 +11,7 @@
     transition: all 0.3s linear;
 }
 
-.zone:hover {
+.zo:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
